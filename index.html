@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Ontario Coding Resource Hub | Teaching Resources Grades 1–8</title>
+    <link rel="icon" type="image/png" href="assets/logo.png">
+    <style>
+      html {
+        scroll-behavior: smooth; /* Smooth scrolling */
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__bar">
+          <div class="nav__header">
+            <div class="nav__logo">
+              <a href="#home">Coding Resource Hub<span>.</span></a>
+            </div>
+            <div class="nav__menu__btn" id="menu-btn">
+              <span><i class="ri-menu-3-line"></i></span>
+            </div>
+          </div>
+          <ul class="nav__links" id="nav-links">
+            <a href="#about">About</a>
+            <a href="#project">Coding Resources</a>
+            <a href="#service">Lesson Plans</a>
+            <a href="#client">Teaching Tips</a>
+            <a href="#blog">YouTube Tutorials</a>
+            <a href="#activities">Resources</a>
+          </ul>
+        </div>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="assets/logo.png" alt="header" />
+        </div>
+        <div class="header__content">
+          <h4>Supporting Coding Education in Ontario</h4>
+          <h1>Ontario Coding Resource Hub.</h1>
+          <p>
+            Looking for ways to bring coding into your classroom? This resource
+            hub is designed for Ontario teachers in Grades 1–8, bringing
+            together coding websites, lesson plans, classroom activities,
+            assessment tools, and practical teaching strategies. Whether you
+            are introducing coding for the first time or looking to expand
+            your students' programming skills, you'll find resources to help
+            make computational thinking engaging, accessible, and meaningful.
+          </p>
+        <a href="#project" class="btn">Explore Resources</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="assets/Logopic2pointing.jpeg" alt="about" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__header">About the Coding Resource Hub</h2>
+        <p>
+          Coding is more than learning how to write computer programs. It
+          encourages students to think critically, solve problems, recognize
+          patterns, develop logical reasoning, and express their creativity.
+          These skills can be developed through hands-on activities,
+          collaborative challenges, and age-appropriate programming
+          experiences.
+        </p>
+        <h4>
+          This website brings together resources that support the Ontario
+          Mathematics Curriculum and its coding expectations. From unplugged
+          coding activities in primary classrooms to block-based programming
+          and more advanced challenges in junior grades, teachers can find
+          practical ways to introduce and develop coding skills in Grades 1–8.
+        </h4>
+      </div>
+    </section>
+
+    <section class="section__container banner__container">
+      <div class="banner__card">
+        <span><i class="ri-shield-star-line"></i></span>
+        <div>
+          <h4>Develop Computational Thinking</h4>
+          <p>
+            Help students break problems into smaller steps, identify
+            patterns, and develop logical solutions through coding.
+          </p>
+        </div>
+      </div>
+      <div class="banner__card">
+        <span><i class="ri-group-line"></i></span>
+        <div>
+          <h4>Learn Through Exploration</h4>
+          <p>
+            Encourage students to experiment, create programs, test ideas,
+            make mistakes, and improve their solutions.
+          </p>
+        </div>
+      </div>
+      <div class="banner__card">
+        <span><i class="ri-lightbulb-flash-line"></i></span>
+        <div>
+          <h4>Make Coding Accessible</h4>
+          <p>
+           Find engaging activities and teaching strategies that introduce
+          coding to learners with different abilities and experience levels.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container project__container" id="project">
+  <div class="project__header">
+    <h2 class="section__header">Coding Resources</h2>
+    <div class="project__nav">
+      <button class="btn project__btn mixitup-control-active" data-filter="all">All</button>
+      <button class="btn project__btn" data-filter=".web">Websites</button>
+      <button class="btn project__btn" data-filter=".game">Articles</button>
+      <button class="btn project__btn" data-filter=".design">Videos</button>
+    </div>
+  </div>
+
+  <div class="project__grid">
+
+    <!-- Websites -->
+
+    <div class="project__card mix web">
+      <a href="https://scratch.mit.edu/" target="_blank">
+        <img src="assets/sratchpic.jpg" alt="Scratch programming website" />
+      </a>
+      <p class="resource__caption">Scratch – Create Interactive Stories, Games, and Animations</p>
+    </div>
+
+    <div class="project__card mix web">
+      <a href="https://www.scratchjr.org/" target="_blank">
+        <img src="assets/scrtachjrpic.png" alt="ScratchJr coding website" />
+      </a>
+      <p class="resource__caption">ScratchJr – Introduce Coding to Young Learners</p>
+    </div>
+
+    <div class="project__card mix web">
+      <a href="https://code.org/" target="_blank">
+        <img src="assets/codeorg.png" alt="Code.org educational coding website" />
+      </a>
+      <p class="resource__caption">Code.org – Interactive Coding Lessons and Activities</p>
+    </div>
+
+    <!-- Articles -->
+
+    <div class="project__card mix game">
+      <a href="https://www.ontario.ca/page/math-curriculum-grades-1-8" target="_blank">
+        <img src="assets/articlepic1.png" alt="Ontario Mathematics Curriculum" />
+      </a>
+      <p class="resource__caption">Ontario Mathematics Curriculum – Understanding Coding Expectations in Grades 1–8</p>
+    </div>
+
+    <div class="project__card mix game">
+      <a href="https://www.pbs.org/parents/thrive/why-coding-matters-for-young-kids" target="_blank">
+        <img src="assets/pbspic.jpg" alt="Why Coding Matters for Young Kids" />
+      </a>
+      <p class="resource__caption">Why Coding Matters for Young Kids – Building Creativity and Problem-Solving Skills</p>
+    </div>
+
+    <!-- Videos -->
+
+    <div class="project__card mix design">
+      <a href="https://www.youtube.com/watch?v=vOsdfRbrNdk" target="_blank">
+        <img src="assets/tedtalks.avif" alt="Why Coding Is Important for Children video" />
+      </a>
+      <p class="resource__caption">Why Coding Is Important to learn - TedTalk</p>
+    </div>
+
+  </div>
+</section>
+
+    
+<section class="section__container service__container" id="service">
+  <p class="section__subheader">Unplugged Coding</p>
+  <h2 class="section__header">Hands-On Coding Activities</h2>
+
+  <p class="section__description">
+    Explore engaging, hands-on coding activities designed for Ontario
+    students in Grades 1–8. These unplugged experiences introduce
+    important programming concepts without requiring computers or
+    devices. Each activity includes a sample lesson plan, learning
+    goals, materials, and opportunities for assessment.
+  </p>
+
+  <div class="service__grid">
+
+    <a href="https://docs.google.com/document/d/11Q4BegD-Re1OFZQcOHXu2JwS6zN5JlctiT9TFpjiy2A/edit?tab=t.0" target="_blank" class="service__card-link">
+      <div class="service__card">
+        <span><i class="ri-robot-2-line"></i></span>
+        <h4>Human Robot Challenge</h4>
+        <p>
+          Students take turns acting as a robot and programmer,
+          giving step-by-step instructions to guide their partner
+          through an obstacle course. Learn how computers follow
+          precise commands to complete tasks.
+          <strong>Grades 1–3</strong>
+        </p>
+      </div>
+    </a>
+
+    <a href="#" target="_blank" class="service__card-link">
+      <div class="service__card">
+        <span><i class="ri-route-line"></i></span>
+        <h4>Code the Maze</h4>
+        <p>
+          Students use directional arrows and command cards to
+          create a sequence of instructions that guides a character
+          through a maze. Challenge students to find the most
+          effective route to the destination.
+          <strong>Grades 1–4</strong>
+        </p>
+      </div>
+    </a>
+
+    <a href="#" target="_blank" class="service__card-link">
+      <div class="service__card">
+        <span><i class="ri-search-eye-line"></i></span>
+        <h4>Debugging Detectives</h4>
+        <p>
+          Students become coding detectives by investigating
+          instructions and algorithms containing intentional errors.
+          They identify mistakes, correct the instructions, and
+          test their solutions.
+          <strong>Grades 3–6</strong>
+        </p>
+      </div>
+    </a>
+
+    <a href="#" target="_blank" class="service__card-link">
+      <div class="service__card">
+        <span><i class="ri-repeat-line"></i></span>
+        <h4>Human Coding Loops</h4>
+        <p>
+          Students use movements, actions, and repeated instructions
+          to discover how loops work. They create movement sequences
+          and learn how repeating commands can make an algorithm
+          shorter and more efficient.
+          <strong>Grades 3–6</strong>
+        </p>
+      </div>
+    </a>
+
+    <a href="#" target="_blank" class="service__card-link">
+      <div class="service__card">
+        <span><i class="ri-git-branch-line"></i></span>
+        <h4>If This, Then That!</h4>
+        <p>
+          Students explore conditional statements through interactive
+          scenarios and decision-making challenges. They follow
+          instructions such as "IF it is raining, THEN open an
+          umbrella" to understand how programs make decisions.
+          <strong>Grades 4–8</strong>
+        </p>
+      </div>
+    </a>
+
+    <a href="#" target="_blank" class="service__card-link">
+      <div class="service__card">
+        <span><i class="ri-lock-password-line"></i></span>
+        <h4>Binary Code Challenge</h4>
+        <p>
+          Students discover how computers represent information
+          using only zeros and ones. They use binary patterns to
+          encode letters, numbers, and secret messages, exploring
+          how digital information is represented.
+          <strong>Grades 5–8</strong>
+        </p>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+
+
+  <section class="section__container client__container" id="client">
+  <p class="section__subheader">Teaching Tips</p>
+  <h2 class="section__header">Tips & Inspiration for Coding Educators</h2>
+  <p class="section__subheader">Swipe for more tips</p>
+  <div class="swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="client__card">
+          <img src="assets/Hello-World_Blog-scaled.jpeg" alt="Start small coding tip" />
+          <div>
+            <p>
+              You don't need to be an expert programmer to teach coding.
+              Start with simple activities and learn alongside your students.
+            </p>
+            <h4>– Start Small</h4>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="client__card">
+          <img src="assets/coding-errors.jpg" alt="Embrace mistakes coding tip" />
+          <div>
+            <p>
+              Debugging is not failure. Mistakes are an important part
+              of learning how to solve problems and improve your code.
+            </p>
+            <h4>– Embrace Mistakes</h4>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="client__card">
+          <img src="assets/codingtogether.jpg" alt="Learn together coding tip" />
+          <div>
+            <p>
+              You don't always need to have the answer. Encourage students
+              to experiment, explore, and discover solutions together.
+            </p>
+            <h4>– Learn Together</h4>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="client__card">
+          <img src="assets/Accessiblecodingpic.jpg" alt="Make coding accessible tip" />
+          <div>
+            <p>
+              Every student can learn to code. Provide different ways
+              to participate, explore, and demonstrate understanding.
+            </p>
+            <h4>– Make Coding Accessible</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
+
+   <section class="section__container blog__container" id="blog">
+  <p class="section__subheader">Youtube Tutorial series</p>
+  <h2 class="section__header">Learn to Code with Our Step-by-Step Videos</h2>
+  <div class="blog__grid">
+
+    <a href="#" target="_blank" class="blog__card-link">
+      <div class="blog__card">
+        <img src="assets/scratchjr.jpeg" alt="Coding for Grades 1 to 3" />
+        <p>Scrath Jr (Beginner)</p>
+        <h4>Learn the Basics of Scratch Jr for Grades 1–3</h4>
+      </div>
+    </a>
+
+    <a href="#" target="_blank" class="blog__card-link">
+      <div class="blog__card">
+        <img src="assets/sratchpic.jpg" alt="Coding for Grades 4 to 8" />
+        <p>Scratch (Intermediate)</p>
+        <h4>Learn how to use Scratch for Grades 4–8</h4>
+      </div>
+    </a>
+
+    <a href="#" target="_blank" class="blog__card-link">
+      <div class="blog__card">
+        <img src="assets/codeorg.png" alt="Coding for Grades 7 to 8" />
+        <p>Code.org (All Levels)</p>
+        <h4>Learn how to code at any level. Grades 1-12</h4>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+<section class="section__container activities__container" id="activities">
+  <p class="section__subheader">Resources for Educators</p>
+  <h2 class="section__header">Teacher Coding Toolkit</h2>
+  <div class="activities__grid">
+
+    <a href="https://docs.google.com/document/d/1zLkARqLzn8GKhrA00Iq-vnWcZYL_QO8GU26DmfqFVBQ/edit?usp=sharing" target="_blank" class="activities__card">
+      <img src="assets/vocabpic.jpeg" alt="Coding Vocabulary Guide" />
+      <div class="activities__content">
+        <h4>Coding Vocabulary Guide</h4>
+        <p>
+          Explore key programming terms such as algorithms, sequencing,
+          loops, events, conditionals, and debugging, with simple
+          explanations to help teachers introduce coding concepts.
+        </p>
+      </div>
+    </a>
+
+    <a href="#" target="_blank" class="activities__card">
+      <img src="assets/ontariocurpic.jpeg" alt="Troubleshooting and Problem-Solving" />
+      <div class="activities__content">
+        <h4>Ontario Curriculum Guide</h4>
+        <p>
+          Explore Ontario's Grades 1–8 coding curriculum expectations,
+          with a breakdown of key learning goals and programming concepts
+          to help teachers plan and deliver curriculum-aligned coding lessons.
+        </p>
+      </div>
+    </a>
+
+    <a href="#" target="_blank" class="activities__card">
+      <img src="assets/othersourcespic.jpeg" alt="Classroom Coding Setup" />
+      <div class="activities__content">
+        <h4>Additonal coding resources</h4>
+        <p>
+         Discover additional coding platforms, teaching materials,
+          lesson ideas, unplugged activities, and online communities that help educators
+          build confidence and bring engaging coding experiences
+          into their classrooms.
+        </p>
+      </div>
+    </a>
+
+  </div>
+</section>
+<footer class="footer">
+  <div class="section__container footer__container">
+
+    <div class="footer__col">
+      <h5><a href="#home">Coding Resource Hub<span>.</span></a></h5>
+      <p>
+        Supporting Ontario teachers in bringing coding education
+        into Grades 1–8 through tutorials, lesson plans, classroom
+        activities, and practical teaching resources.
+      </p>
+      <p>
+        Created by Luke Knehler, Justine Dorey, and Katelyn Crooks.
+      </p>
+    </div>
+
+    <div class="footer__col">
+      <h4>Explore the Hub</h4>
+      <div class="footer__links">
+        <a href="#about">About</a>
+        <a href="#project">Coding Resources</a>
+        <a href="#service">Lesson Plans</a>
+      </div>
+    </div>
+
+    <div class="footer__col">
+      <h4>Teaching Resources</h4>
+      <div class="footer__links">
+        <a href="#client">Teaching Tips</a>
+        <a href="#blog">YouTube Tutorials</a>
+        <a href="#activities">Resources</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer__bar">
+    Copyright © 2026 Ontario Coding Resource Hub. All rights reserved.
+  </div>
+</footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
+
